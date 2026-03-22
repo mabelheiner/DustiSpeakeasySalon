@@ -56,4 +56,8 @@ body {
 .home-header {
   flex-direction: column;
 }
+
+.main-menu {
+  width: 80%;
+}
 }

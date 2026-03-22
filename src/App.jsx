@@ -95,6 +95,10 @@ function App() {
 
         
       </main>
+
+      <footer>
+        <p>&copy; 2026 Website Built and Deployed by Mabel Heiner</p>
+      </footer>
     </>
   )
 }
