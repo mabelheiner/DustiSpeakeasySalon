@@ -7,5 +7,14 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
+}
+
+.table-row {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  alignItems: center
 }
