@@ -93,7 +93,15 @@ function App() {
           <p>$30+</p>
         </section>
 
-        
+        <section className='contact-owner'>
+          <h2>Contact</h2>
+
+          <section className='contact-owner-information'>
+            <p>623-312-0623</p>
+            <p>dustispeakeasy@gmail.com</p>
+            <p>Mobile service available by appointment only</p>
+          </section>
+        </section>
       </main>
 
       <footer>

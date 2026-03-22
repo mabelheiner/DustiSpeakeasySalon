@@ -13,14 +13,17 @@ body {
 
 .home-header {
   display: flex;
-  flex0-direction: row;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 80%;
+  margin: auto;
 }
 
 .home-image img {
   max-height: 150px;
   border-radius: 8px;
+  float: left;
 }
 
 .home-bio {
@@ -52,6 +55,18 @@ body {
   alignItems: center
 }
 
+.contact-owner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.contact-owner-information {
+  text-align: left;
+  padding: 20px;
+}
+
 @media (max-width: 768px) {
 .home-header {
   flex-direction: column;
@@ -59,5 +74,13 @@ body {
 
 .main-menu {
   width: 80%;
+}
+
+.contact-owner {
+  flex-direction: column;
+}
+
+.contact-owner-information {
+  padding: 0px
 }
 }
