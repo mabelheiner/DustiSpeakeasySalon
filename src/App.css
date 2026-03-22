@@ -52,7 +52,7 @@ body {
   flex-direction: row;
   width: 80%;
   justify-content: space-between;
-  alignItems: center
+  align-items: center;
 }
 
 .contact-owner {
