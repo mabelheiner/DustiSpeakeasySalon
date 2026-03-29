@@ -85,7 +85,7 @@ body {
 
 @media (max-width: 768px) {
 body {
-  padding: 0px;
+  padding: 8px;
 }
 .home-page-grid {
   grid-template-columns: 1fr;
