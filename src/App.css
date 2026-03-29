@@ -104,6 +104,7 @@ body {
 
 .main-menu-grid {
   grid-row: 3;
+  grid-column: 1/4;
 }
 
 .home-footer-grid {
