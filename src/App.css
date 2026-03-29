@@ -84,9 +84,9 @@ body {
 }
 
 @media (max-width: 768px) {
-body {
+/* body {
   padding: 8px;
-}
+} */
 .home-image-grid {
   grid-column: 2;
   grid-row: 1;
