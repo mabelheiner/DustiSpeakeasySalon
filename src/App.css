@@ -84,6 +84,9 @@ body {
 }
 
 @media (max-width: 768px) {
+body {
+  padding: 0px;
+}
 .home-page-grid {
   grid-template-columns: 1fr;
 }
