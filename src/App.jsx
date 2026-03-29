@@ -8,12 +8,11 @@ import salonLogoImage from '/src/assets/img/Dusti’s_Speakeasy_Salon_Logo.png'
 function App() {
 
   return (
-    <>
-    <header className='home-header'>
-      <section className='home-image'>
+    <section className='home-page-grid'>   
+      <section className='home-image-grid'>
         <img src={salonLogoImage} alt="Logo for Dusti's Speakeasy Salon" />
-      </section>
-      <section className='home-bio'>
+      </section>     
+      <section className='home-bio-grid'>
         <h1>Welcome to Dusti's Speakeasy Salon</h1>
         <p> 
           Welcome to Dusti's Speakeasy! Rensselaer’s spot for good cuts, and good company. We’re a walk-in-friendly salon where the conversation flows as easily as the clippers. <br />
@@ -21,8 +20,7 @@ function App() {
           Storefront Coming Jan 2027!
           </p>
       </section>
-      </header>
-      <main className='main-menu'>
+      <main className='main-menu-grid'>
         <h1>Salon Price List</h1>
 
         <h2>Cut & Finish</h2>
@@ -104,10 +102,10 @@ function App() {
         </section>
       </main>
 
-      <footer>
+      <footer className='home-footer-grid'>
         <p>&copy; 2026 Website Built and Deployed by Mabel Heiner</p>
       </footer>
-    </>
+    </section>
   )
 }
 
