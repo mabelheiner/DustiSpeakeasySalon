@@ -90,6 +90,10 @@ body {
   margin-bottom: 8px;
 }
 
+.home-image-grid img {
+  max-height: 100px;
+}
+
 .home-bio-grid {
   grid-row: 2;
 }
