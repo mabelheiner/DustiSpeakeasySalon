@@ -62,6 +62,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: auto;
+  text-align: left;
 }
 
 .contact-owner {
