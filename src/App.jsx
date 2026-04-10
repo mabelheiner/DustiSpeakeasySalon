@@ -17,7 +17,7 @@ function App() {
         <p> 
           Welcome to Dusti's Speakeasy! Rensselaer’s spot for good cuts, and good company. We’re a walk-in-friendly salon where the conversation flows as easily as the clippers. <br />
           Mobile services available by appointment. <br />
-          Storefront Coming Jan 2027!
+          Storefront Coming May 2026!
           </p>
       </section>
       <main className='main-menu-grid'>
