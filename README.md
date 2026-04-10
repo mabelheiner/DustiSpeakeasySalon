@@ -1,8 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Dusti's Speakeasy Salon
+Welcome to Dusti's Speakeasy! Rensselaer’s spot for good cuts, and good company. We’re a walk-in-friendly salon where the conversation flows as easily as the clippers.
+Mobile services available by appointment.
+Storefront Coming May 2026!
