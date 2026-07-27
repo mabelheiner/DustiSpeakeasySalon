@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import {FaPhone, FaLocationDot, FaEnvelope} from "react-icons/fa6";
+
 import salonLogoImage from '/src/assets/img/Dusti’s_Speakeasy_Salon_Logo.png'
 
 function App() {
@@ -17,8 +19,28 @@ function App() {
         <p> 
           Welcome to Dusti's Speakeasy! Rensselaer’s spot for good cuts, and good company. We’re a walk-in-friendly salon where the conversation flows as easily as the clippers. <br />
           Mobile services available by appointment. <br />
-          Storefront Coming May 2026!
           </p>
+
+        <section className='home-bio-contact-info'>
+          <section className='contact-option'>
+            <a href='tel:12199642048' target='_blank' style={{textWrap: 'nowrap'}}>
+            <FaPhone />
+            <p>219-964-2048</p>
+            </a>
+          </section>
+          <section className='contact-option'>
+            <a href='https://maps.app.goo.gl/b2gfdjxmAyA224BeA' target='_blank'>
+            <FaLocationDot />
+            <p>212 W Harrison St, Rensselaer IN 47978</p>
+            </a>
+          </section>
+          <section className='contact-option'>
+            {/* <a href='mailto:dustispeakeasy@gmail.com' target='_blank'> */}
+            <FaEnvelope />
+            <p>dustispeakeasy@gmail.com</p>
+            {/* </a> */}
+          </section>
+        </section>
       </section>
       <main className='main-menu-grid'>
         <h1>Salon Price List</h1>
@@ -91,14 +113,61 @@ function App() {
           <p>$30+</p>
         </section>
 
-        <section className='contact-owner'>
-          <h2>Contact</h2>
+        <h2>Waxing</h2>
 
-          <section className='contact-owner-information'>
-            <p>623-312-0623</p>
-            <p>dustispeakeasy@gmail.com</p>
-            <p>Mobile service available by appointment only</p>
-          </section>
+        <section className='waxing-table-row'>
+          <p>Eyebrows</p>
+          <p>$12</p>
+        </section>
+
+        <section className='waxing-table-row'>
+          <p>Lip</p>
+          <p>$10</p>
+        </section>
+
+        <section className='waxing-table-row'>
+          <p>Chin</p>
+          <p>$10</p>
+        </section>
+
+        <section className='waxing-table-row'>
+          <p>Underarm</p>
+          <p>$25</p>
+        </section>
+
+        <section className='waxing-table-row'>
+          <p>Half-Arm</p>
+          <p>$20</p>
+        </section>
+
+        <section className='waxing-table-row'>
+          <p>Full-Arm</p>
+          <p>$35</p>
+        </section>
+
+        <section className='waxing-table-row'>
+          <p>Bikini</p>
+          <p>$35</p>
+        </section>
+
+        <section className='waxing-table-row'>
+          <p>Half-Leg</p>
+          <p>$45</p>
+        </section>
+
+        <section className='waxing-table-row'>
+          <p>Full-Leg</p>
+          <p>$65</p>
+        </section>
+
+        <section className='waxing-table-row'>
+          <p>Back</p>
+          <p>$40+</p>
+        </section>
+
+        <section className='waxing-table-row'>
+          <p>Chest</p>
+          <p>$30+</p>
         </section>
       </main>
 

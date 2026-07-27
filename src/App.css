@@ -45,6 +45,21 @@ body {
   padding: 8px;
 }
 
+.home-bio-contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .contact-option {
+    margin: 8px;
+    
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
 .main-menu-grid {
   background-color: lightgray;
   opacity: .75;
@@ -55,7 +70,7 @@ body {
   grid-row: 2;
 }
 
-.color-services-table-row, .haircut-and-finishes-table-row {
+.color-services-table-row, .haircut-and-finishes-table-row, .waxing-table-row {
   display: flex;
   flex-direction: row;
   width: 80%;
@@ -76,6 +91,11 @@ body {
 .contact-owner-information {
   text-align: left;
   padding: 20px;
+
+  a {
+    text-decoration: none;
+    color: black
+  }
 }
 
 .home-footer-grid {
