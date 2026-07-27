@@ -121,6 +121,10 @@ body {
   grid-row: 2;
 }
 
+.home-bio-contact-info {
+  flex-direction: column;
+}
+
 .main-menu-grid {
   grid-row: 3;
 }
