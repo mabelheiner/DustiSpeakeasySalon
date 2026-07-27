@@ -7,7 +7,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 const router = createBrowserRouter([
   {path: '/', element: <App />},
-], {basename: '/'})
+], {basename: '/DustiSpeakeasySalon'})
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
